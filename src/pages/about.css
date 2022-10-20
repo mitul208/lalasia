@@ -1,0 +1,250 @@
+.about-us-hero-contant {
+  max-width: 600px;
+  margin: 30px auto;
+}
+.hero-video {
+  max-width: 1240px;
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+}
+.mission-section {
+  padding: 90px 0;
+}
+.mission-block {
+  display: flex;
+  gap: 98px;
+}
+.mission-block-left {
+  max-width: 548px;
+}
+.mission-h4 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  color: rgba(255, 178, 63, 1);
+  margin: 0;
+}
+.mission-h2 {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 57px;
+  color: rgba(21, 20, 17, 1);
+  margin: 14px 0 50px;
+}
+.experience-block {
+  display: flex;
+  gap: 50px;
+}
+.mission-block-right {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.mission-block-span-1 {
+  display: block;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 57px;
+  color: rgba(21, 20, 17, 1);
+  margin: 0 0 10px;
+}
+.mission-block-span-2 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  color: rgba(175, 173, 181, 1);
+}
+.mission-contant {
+  display: flex;
+  gap: 10px;
+}
+.mission-img-block {
+  min-width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mission-right-span {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 33px;
+}
+.mission-right-p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  color: rgba(175, 173, 181, 1);
+  margin: 16px 0 0;
+}
+.team-section {
+  padding: 90px 0;
+}
+.team-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.team-header-left {
+  max-width: 584px;
+}
+.team-h4 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  color: rgba(255, 178, 63, 1);
+  margin: 0;
+}
+.team-h2 {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 57px;
+  color: rgba(21, 20, 17, 1);
+  margin: 14px 0 0;
+}
+.team-header-right {
+  max-width: 505px;
+}
+.team-p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  color: rgba(175, 173, 181, 1);
+  margin: 0;
+}
+.team-detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 29px;
+  margin: 50px 0 0;
+}
+.team-detail-contant:hover .team-detail-img {
+  transform: scale(1.1);
+}
+.team-detail-img {
+  width: 100%;
+  transition: 300ms;
+}
+.team-detail-span-1 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 33px;
+  color: rgba(21, 20, 17, 1);
+  display: block;
+  margin: 26px 0 6px;
+}
+.team-detail-span-2 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  color: rgba(175, 173, 181, 1);
+  display: block;
+}
+@media only screen and (max-width: 991px) {
+  .mission-block {
+    flex-wrap: wrap;
+    gap: 60px;
+  }
+  .mission-block-left {
+    max-width: 100%;
+  }
+  .team-header {
+    flex-wrap: wrap;
+  }
+  .team-header-left {
+    max-width: 100%;
+  }
+  .team-header-right {
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .team-detail {
+    grid-template-columns: 1fr 1fr;
+  }
+  .experience-block {
+    justify-content: space-between;
+  }
+}
+@media only screen and (max-width: 489px) {
+  .hero-video {
+    height: 206px;
+  }
+  .hero-section {
+    padding: 50px 0;
+  }
+  .mission-section {
+    padding: 50px 0;
+  }
+  .mission-h4 {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .mission-h2 {
+    font-size: 24px;
+    line-height: 31px;
+    margin: 8px 0 30px;
+  }
+  .experience-block {
+    gap: 0;
+  }
+  .mission-block-span-1 {
+    font-size: 24px;
+    line-height: 31px;
+    margin: 0 0 4px;
+  }
+  .mission-block-span-2 {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .mission-block {
+    gap: 30px;
+  }
+  .mission-block {
+    gap: 23px;
+  }
+  .mission-right-span {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .mission-right-p {
+    font-size: 14px;
+    line-height: 18px;
+    margin: 16px 0 0;
+  }
+  .team-section {
+    padding: 50px 0;
+  }
+  .team-h4 {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .team-h2 {
+    font-size: 24px;
+    line-height: 31px;
+    margin: 8px 0 0;
+  }
+  .team-p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .team-detail {
+    margin: 30px 0 0;
+    grid-template-columns: 1fr;
+  }
+  .team-detail-span-1 {
+    font-size: 14px;
+    line-height: 18px;
+    margin: 14px 0 6px;
+  }
+  .team-detail-span-2 {
+    font-size: 12px;
+    line-height: 21px;
+  }
+  .team-detail-img {
+    height: 299px;
+  }
+}

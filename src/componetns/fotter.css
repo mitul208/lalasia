@@ -1,0 +1,97 @@
+.footer-section {
+  padding: 90px 0;
+}
+.footer-upper-block {
+  margin: 0 0 86px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-h2 {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 57px;
+  color: rgba(21, 20, 17, 1);
+  margin: 0;
+  text-transform: capitalize;
+}
+.footer-a-link {
+  text-decoration: none;
+  display: inline-flex;
+  gap: 18px;
+  padding: 15px 30px;
+  background-color: rgba(81, 133, 129, 1);
+  color: white;
+  align-items: center;
+}
+.footer-a-link:hover .material-symbols-outlined {
+  transform: translateX(10px);
+}
+.footer-a-link p {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  margin: 0;
+}
+.material-symbols-outlined {
+  transition: 300ms;
+}
+.footer-lower-block {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 0 0 0;
+  border-top: 2px solid rgba(236, 228, 222, 1);
+}
+.footer-left {
+  max-width: 505px;
+}
+.footer-logo {
+  display: inline-block;
+}
+.footer-logo img {
+  max-width: 130px;
+  display: block;
+}
+.footer-p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  margin: 36px 0 0;
+  color: rgba(175, 173, 181, 1);
+}
+.footer-right {
+  display: flex;
+}
+.footer-list {
+  margin: 0;
+  padding: 0;
+}
+.list-hading {
+  list-style-type: none;
+  margin: 0 0 20px 0;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  color: rgba(21, 20, 17, 1);
+}
+.footer-list-services {
+  margin: 0 100px;
+}
+.list-item {
+  list-style-type: none;
+  margin: 0 0 12px;
+  display: block;
+}
+.footer-link {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  color: rgba(175, 173, 181, 1);
+  display: block;
+  transition: 400ms;
+}
+.footer-link:hover {
+  color: rgba(81, 133, 129, 1);
+  text-decoration: underline;
+}
