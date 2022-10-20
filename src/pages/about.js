@@ -11,7 +11,7 @@ const About = () => {
           <div className="hero-contant service-hero-img about-us-hero-contant">
             <h1 className="hero-hading">About us</h1>
             <p className="hero-pera service-hero-pera">
-              We display products based on the latest products we have, if you
+              We display products based on the latests products we have, if you
               want to see our old products please enter the name of the item
             </p>
           </div>
